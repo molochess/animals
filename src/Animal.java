@@ -6,4 +6,10 @@ public class Animal {
     String type;
     String name;
     int age;
+
+    Animal(String type, String name, int age) {
+        this.type = type;
+        this.name = name;
+        this.age = age;
+    }
 }
