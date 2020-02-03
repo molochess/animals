@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class WritingReading {
 
-    public void writing(Animal animal, String file ) {
+    public static void writing(Animal animal, String file ) {
         try (FileWriter writer = new FileWriter(file, false)) {
             writer.write(animal.toString());
 
